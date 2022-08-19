@@ -1,4 +1,4 @@
-// TODO: dayjs().format('LL') should give day without time, but can't get that working
+// TODO: dayjs().format('LL') should give day without time
 var dayDisplay = $("#currentDay");
 var textAreas = $("textarea")
 var currentHour = dayjs().hour();
@@ -34,8 +34,6 @@ for (let i = 0; i < textAreas.length; i++){
 function testFunction () {
     console.log("Clicked!")
 }
-
-// TODO: Let user save text in the "hour text content" area to local storage
 
 // Event listener for buttons
 // Saves any text content to local storage using the button index as a key
